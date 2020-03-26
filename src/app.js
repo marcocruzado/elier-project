@@ -12,6 +12,7 @@ app.set('port',process.env.PORT||3000);
 
 //middleawares
 app.use(morgan('dev'));
+app.use(cors())
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
