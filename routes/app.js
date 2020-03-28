@@ -33,6 +33,7 @@ routes.post('/', async (req, res) => {
         ApeCli: req.body.ApeCli,
         TipPre: req.body.TipPre,
         DesPre: req.body.DesPre,
+        TelCli:req.body.TelCli,
         BusCli: req.body.BusCli,
         CinCLi: req.body.CinCLi,
         PriCadCli: req.body.PriCadCli,
