@@ -6,7 +6,7 @@ const clienteSchema=new Schema({
     ApeCli:{type:String},
     TipPre:{type:String},
     DesPre:{type:String},
-    TelCli:{type:String},
+    TelCli:{type:Number},
     BusCli:{type:Number},
     CinCLi:{type:Number},
     PriCadCli:{type:Number},

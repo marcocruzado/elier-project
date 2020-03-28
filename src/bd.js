@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 host='localhost'
-bd='ClientesElier'
+bd='ClientesElier2'
 
 mongoose.connect(`mongodb://${host}/${bd}`,{
     useNewUrlParser:true,
